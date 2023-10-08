@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title> A Weird Concoction </title>
+        <link rel="stylesheet" href="style.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="Images/Louie-logos_white.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="information.html">INFO</a></li>
+                        <li><a href="anime.html">ANIME</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Anime</h1>
+        </section>
+       <!--------Anime content-------->
+        <section class="anime-content">
+        <div class="row">
+            <div class="anime-left">
+                <img src="Images/anime.jpg">
+                <h2>My oxygen and lifeline (≧∇≦)</h2>
+                <p>I am very huge fan of anime. I can't live in a world without anime. I have so many animes to talk about, but I decided to stick to my all time favorite anime, Oregairu.There will be spoilers so don't read if you haven't watched the anime. Okay so wtf did I just watched. This was one of the best romcom I have ever seen till now.The MC- Hikigaya was one the best I have ever came across. How he growed throughout the series how he he reads between the lines, the way he understands everything, the way he conveys his emotions through logic is and his confession was simply awesome.</p>
+                <br>
+                <p>Yui on the other hand.. Well I figured Yui was not as nice as she was showing herself to be and the ending of season 2 proved my point how she tried to use Yukino's feelings against her. But I'll say one thing doing everything to obtain something that you love is something everyone does. I am not against Yui so please her fans don't attack me haha. And one last thing Yui's character was also simply awesome.</p>
+                <br>
+                <p>As for yukino, I mean, C'mon she's the best girl between the MC's love interests we can agree on that lol. But she was actually very good the way she argues with Hikigaya always entertained me. The studio didn't do her justice. They were able to portray her character in season 3 properly. I realised this when I read the LN. But she was also simply awesome.</p>
+                <br>
+                <p>And now the MVP of the series Hiratsuka Sensei she always understood Hikigaya and the way she always gave hints to Hikigaya, her pep talks were also simply awesome. Someone marry her please.The series was very dialogue heavy just like the MC you'll also have to read between the lines to understand this anime. And the indirect confession it was so unique.</p>
+                <br>
+                <p>Mah boy Hikigaya in his mellow voice said "Allow me the previlage of distorting your life. Yukino: Please allow me to have your life" And the line which beautifully described the confession at the end of ep 11- Only a heated touch truly conveys the sentiment."This series scores major points in my list" quoting the best sister Komachi.</p>
+                
+                
+                <div class="comment-box">
+                <h3>Please share your thoughts about Oregairu  :></h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter your Name">
+                        <input type="email" placeholder="Enter your Email">
+                        <textarea rows="5" placeholder="Your weeb thoughts">
+                        </textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+                
+                
+            </div>
+            <div class="anime-right">
+            <h3>Anime Genres</h3>
+                <div>
+                    <span>Shonen</span>
+                    <span>11</span>
+                </div>
+                <div>
+                    <span>Shojo</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Mecha</span>
+                    <span>13</span>
+                </div>
+                <div>
+                    <span>Slice of life</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Fantasy</span>
+                    <span>25</span>
+                </div>
+                <div>
+                    <span>Isekai</span>
+                    <span>23</span>
+                </div>
+                <div>
+                    <span>Harem</span>
+                    <span>12</span>
+                </div>
+                <div>
+                    <span>Military</span>
+                    <span>10</span>
+                </div>
+                <div>
+                    <span>Mystery</span>
+                    <span>19</span>
+                </div>
+            </div>
+            </div>
+         </section>
+        <!--------Footer-------->
+        
+        <section class="footer">
+            <h4>About Me</h4>
+            <p> My life has always been quite mediocre and stagnant, it's always been the people around me that make it interesting and worth living. <br> If you wanna know more about me, just check out the About Tab. There's nothing much in it tbh.  </p> 
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <p> Made by yours truly<br> Louie Dominic G. Francia  <i class="fa-regular fa-heart"></i> UwU</p>
+            
+        </section>
+        
+        
+        <!--------JavaScript for Toggle Menu-------->
+        <script>
+            
+            var navLinks = document.getElementById("navLinks");
+           
+            function showMenu(){
+                navLinks.style.right = "0" ;
+                
+            }
+            
+            function hideMenu(){
+                navLinks.style.right = "-200px" ;
+                
+            } 
+        </script>
+        
+        
+    </body>
+</html>
+

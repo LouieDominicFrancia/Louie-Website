@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title> A Weird Concoction </title>
+        <link rel="stylesheet" href="style.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="Images/Louie-logos_white.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="information.html">INFO</a></li>
+                        <li><a href="anime.html">ANIME</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Contact me</h1>
+        </section>
+        <!--------Contact-------->
+        <section class="basicinfo">
+            <h1> So here's my contact deets</h1>
+                <p> so call me maybe? </p>
+                <div class="row">
+                    <div class="basicinfo-col">
+                        <h3>Contact Number</h3>
+                        <p> +0966996966 </p>    
+                    </div>
+                    <div class="basicinfo-col">
+                        <h3>Email</h3>
+                        <p> franciazethra78@gmail.com</p>    
+                    </div>
+                    <div class="basicinfo-col">
+                        <h3>Social Media</h3>
+                        <p> https://www.facebook.com/zik.francia/ </p>    
+                    </div>
+                </div>
+        </section>
+        <!--------Footer-------->
+        
+        <section class="footer">
+            <h4>About Me</h4>
+            <p> My life has always been quite mediocre and stagnant, it's always been the people around me that make it interesting and worth living. <br> If you wanna know more about me, just check out the About Tab. There's nothing much in it tbh.  </p> 
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <p> Made by yours truly<br> Louie Dominic G. Francia  <i class="fa-regular fa-heart"></i> UwU</p>
+            
+        </section>
+        
+        
+        <!--------JavaScript for Toggle Menu-------->
+        <script>
+            
+            var navLinks = document.getElementById("navLinks");
+           
+            function showMenu(){
+                navLinks.style.right = "0" ;
+                
+            }
+            
+            function hideMenu(){
+                navLinks.style.right = "-200px" ;
+                
+            } 
+        </script>
+        
+        
+    </body>
+</html>
+
